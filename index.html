@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ecopoints - Smart recycling solution with reverse vending machines. Earn rewards for recycling plastic waste.">
+    <title>Ecopoints - Smart Recycling, Smart Rewards</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <i class="fas fa-recycle"></i>
+                    <span>Ecopoints</span>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#rewards">Rewards</a></li>
+                    <li><a href="#technology">Technology</a></li>
+                    <li><a href="#impact">Impact</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Turn Your Waste Into Rewards</h1>
+                    <p class="hero-tagline">Join the smart recycling revolution. Deposit plastic bottles, earn points, and redeem amazing rewards while saving our planet.</p>
+                    <div class="hero-buttons">
+                        <a href="#how-it-works" class="btn btn-primary">Start Recycling</a>
+                        <a href="#" class="btn btn-secondary">
+                            <i class="fas fa-mobile-alt"></i> Download App
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">10K+</span>
+                            <span class="stat-label">Active Users</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">500K+</span>
+                            <span class="stat-label">Bottles Recycling</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">200+</span>
+                            <span class="stat-label">Locations</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="machine-animation">
+                        <!-- Machine Container -->
+                        <div class="machine-container">
+                            <div class="machine-body">
+                                <div class="machine-top">
+                                    <div class="machine-screen">
+                                        <div class="screen-content">
+                                            <i class="fas fa-recycle"></i>
+                                            <span class="points-counter">+10 pts</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="machine-deposit-slot">
+                                    <div class="slot-door"></div>
+                                </div>
+                                <div class="machine-bottom"></div>
+                            </div>
+                            
+                            <!-- Animated Bottles -->
+                            <div class="bottle bottle-1">
+                                <i class="fas fa-wine-bottle"></i>
+                            </div>
+                            <div class="bottle bottle-2">
+                                <i class="fas fa-wine-bottle"></i>
+                            </div>
+                            <div class="bottle bottle-3">
+                                <i class="fas fa-wine-bottle"></i>
+                            </div>
+                            
+                            <!-- Points Animation -->
+                            <div class="points-popup points-1">+10</div>
+                            <div class="points-popup points-2">+15</div>
+                            <div class="points-popup points-3">+5</div>
+                        </div>
+                        
+                        <!-- Mobile App Mockup -->
+                        <div class="app-mockup">
+                            <div class="phone-frame">
+                                <div class="phone-screen">
+                                    <div class="app-content">
+                                        <div class="app-header">
+                                            <i class="fas fa-recycle"></i>
+                                            <span>Ecopoints</span>
+                                        </div>
+                                        <div class="app-stats">
+                                            <div class="stat-dot"></div>
+                                            <div class="stat-dot"></div>
+                                            <div class="stat-dot"></div>
+                                        </div>
+                                        <div class="points-display">
+                                            <span class="points-number">125</span>
+                                            <span class="points-label">points</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,60 C300,100 600,20 900,60 C1050,80 1125,70 1200,60 L1200,120 L0,120 Z" fill="currentColor"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Ecopoints</h2>
+                <p class="section-subtitle">Revolutionizing recycling through innovation and rewards</p>
+            </div>
+            <div class="about-content">
+                <!-- Mission Card -->
+                <div class="about-card mission-card">
+                    <div class="about-card-image mission-image">
+                        <div class="image-overlay mission-overlay"></div>
+                        <div class="image-content">
+                            <div class="image-icon mission-icon">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <div class="floating-elements">
+                                <div class="floating-circle circle-1"></div>
+                                <div class="floating-circle circle-2"></div>
+                                <div class="floating-circle circle-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-card-text">
+                        <h3>Our Mission</h3>
+                        <p>To create a sustainable future by making recycling accessible, rewarding, and engaging for everyone. We aim to significantly reduce plastic waste in our communities while incentivizing positive environmental behavior through smart technology and meaningful rewards.</p>
+                    </div>
+                </div>
+
+                <!-- Vision Card -->
+                <div class="about-card vision-card">
+                    <div class="about-card-text">
+                        <h3>Our Vision</h3>
+                        <p>We envision a world where every plastic bottle finds its way back into the recycling loop. Through our network of smart reverse vending machines and an intuitive mobile app, we're building a circular economy that benefits both the environment and our users.</p>
+                    </div>
+                    <div class="about-card-image vision-image">
+                        <div class="image-overlay vision-overlay"></div>
+                        <div class="image-content">
+                            <div class="image-icon vision-icon">
+                                <i class="fas fa-eye"></i>
+                            </div>
+                            <div class="floating-elements">
+                                <div class="floating-star star-1"></div>
+                                <div class="floating-star star-2"></div>
+                                <div class="floating-star star-3"></div>
+                                <div class="floating-star star-4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Why It Matters Card -->
+                <div class="about-card impact-card">
+                    <div class="about-card-image impact-image">
+                        <div class="image-overlay impact-overlay"></div>
+                        <div class="image-content">
+                            <div class="image-icon impact-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <div class="floating-elements">
+                                <div class="floating-leaf leaf-1"></div>
+                                <div class="floating-leaf leaf-2"></div>
+                                <div class="floating-leaf leaf-3"></div>
+                                <div class="floating-leaf leaf-4"></div>
+                                <div class="floating-leaf leaf-5"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-card-text">
+                        <h3>Why It Matters</h3>
+                        <p>Plastic pollution is one of the most pressing environmental challenges of our time. Over 8 million tons of plastic enter our oceans annually. By creating an easy and rewarding recycling system, Ecopoints encourages responsible waste disposal, reduces landfill accumulation, and supports the recycling industry in creating new products from recycled materials.</p>
+                    </div>
+                </div>
+
+                <!-- Stats Cards -->
+                <div class="about-stats">
+                    <div class="stat-card stat-card-1">
+                        <div class="stat-icon">
+                            <i class="fas fa-globe-americas"></i>
+                        </div>
+                        <h4>Cleaner Planet</h4>
+                        <p>Making Earth greener one bottle at a time</p>
+                    </div>
+                    <div class="stat-card stat-card-2">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4>Community Impact</h4>
+                        <p>Empowering communities to recycle together</p>
+                    </div>
+                    <div class="stat-card stat-card-3">
+                        <div class="stat-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h4>Sustainable Growth</h4>
+                        <p>Building a circular economy for future generations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>How It Works</h2>
+                <p class="section-subtitle">Get started in three simple steps</p>
+            </div>
+            <div class="steps">
+                <div class="step step-card-1">
+                    <div class="step-visual">
+                        <div class="step-image step-img-1">
+                            <div class="step-icon-3d">
+                                <i class="fas fa-bottle-water"></i>
+                            </div>
+                            <div class="step-glow"></div>
+                        </div>
+                    </div>
+                    <div class="step-content">
+                        <div class="step-number">1</div>
+                        <h3>Deposit Plastic Waste</h3>
+                        <p>Locate a nearby Ecopoints machine using our app, scan the QR code, and deposit your plastic bottles. Our smart sensors automatically detect and count your recyclables.</p>
+                    </div>
+                </div>
+                <div class="step step-card-2">
+                    <div class="step-visual">
+                        <div class="step-image step-img-2">
+                            <div class="step-icon-3d">
+                                <i class="fas fa-coins"></i>
+                            </div>
+                            <div class="step-glow"></div>
+                        </div>
+                    </div>
+                    <div class="step-content">
+                        <div class="step-number">2</div>
+                        <h3>Earn Points Instantly</h3>
+                        <p>Watch your Ecopoints accumulate in real-time! Each bottle earns you points based on its size and type. Points are credited directly to your account within seconds.</p>
+                    </div>
+                </div>
+                <div class="step step-card-3">
+                    <div class="step-visual">
+                        <div class="step-image step-img-3">
+                            <div class="step-icon-3d">
+                                <i class="fas fa-gift"></i>
+                            </div>
+                            <div class="step-glow"></div>
+                        </div>
+                    </div>
+                    <div class="step-content">
+                        <div class="step-number">3</div>
+                        <h3>Redeem Rewards</h3>
+                        <p>Browse our reward catalog in the app and exchange your points for shopping discounts, restaurant vouchers, travel deals, movie tickets, and much more!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cta-box">
+                <h3>Ready to Start Recycling?</h3>
+                <p>Download the Ecopoints app today and join thousands of users making a difference</p>
+                <a href="#" class="btn btn-primary">
+                    <i class="fas fa-download"></i> Get the App
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Smart Features</h2>
+                <p class="section-subtitle">Advanced technology for seamless recycling experience</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card feature-card-1">
+                    <div class="feature-visual">
+                        <div class="feature-icon-3d">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                    </div>
+                    <h3>Smart Sensors</h3>
+                    <p>State-of-the-art sensors automatically detect and identify different types of plastic bottles, ensuring accurate counting and sorting without manual intervention.</p>
+                </div>
+                <div class="feature-card feature-card-2">
+                    <div class="feature-visual">
+                        <div class="feature-icon-3d">
+                            <i class="fas fa-binoculars"></i>
+                        </div>
+                    </div>
+                    <h3>Real-Time Bin Monitoring</h3>
+                    <p>Our machines continuously monitor fill levels and send automatic alerts when collection is needed, ensuring optimal machine availability and maintenance.</p>
+                </div>
+                <div class="feature-card feature-card-3">
+                    <div class="feature-visual">
+                        <div class="feature-icon-3d">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                    </div>
+                    <h3>Reward System</h3>
+                    <p>Earn points for every bottle recycled, with bonus multipliers for consistent recycling habits. Track your environmental impact and unlock achievement badges.</p>
+                </div>
+                <div class="feature-card feature-card-4">
+                    <div class="feature-visual">
+                        <div class="feature-icon-3d">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                    </div>
+                    <h3>Mobile App Integration</h3>
+                    <p>Seamlessly connect with our user-friendly mobile app to find machines, track points, browse rewards, and manage your recycling activity all in one place.</p>
+                </div>
+                <div class="feature-card feature-card-5">
+                    <div class="feature-visual">
+                        <div class="feature-icon-3d">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                    </div>
+                    <h3>Location Finder</h3>
+                    <p>Quickly locate the nearest Ecopoints machine with our interactive map. Get real-time availability status, directions, and machine capacity information.</p>
+                </div>
+                <div class="feature-card feature-card-6">
+                    <div class="feature-visual">
+                        <div class="feature-icon-3d">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                    </div>
+                    <h3>Impact Tracking</h3>
+                    <p>Monitor your personal contribution to the environment with detailed statistics on bottles recycled, CO2 saved, and your ranking in the community leaderboard.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rewards Section -->
+    <section id="rewards" class="rewards">
+        <div class="container">
+            <div class="section-header">
+                <h2>Rewards & Coupons</h2>
+                <p class="section-subtitle">Transform your recycling into valuable rewards</p>
+            </div>
+            <div class="rewards-content">
+                <div class="rewards-info">
+                    <h3>How You Earn Points</h3>
+                    <p>Every plastic bottle you recycle earns you Ecopoints. The number of points depends on the bottle size:</p>
+                    <ul class="points-list">
+                        <li><i class="fas fa-check-circle"></i> Small bottles (500ml): <strong>5 points</strong></li>
+                        <li><i class="fas fa-check-circle"></i> Medium bottles (1L): <strong>10 points</strong></li>
+                        <li><i class="fas fa-check-circle"></i> Large bottles (1.5L+): <strong>15 points</strong></li>
+                        <li><i class="fas fa-check-circle"></i> Bonus multipliers for daily recycling streaks!</li>
+                    </ul>
+                </div>
+                <div class="rewards-grid">
+                    <div class="reward-card reward-card-1">
+                        <div class="reward-visual">
+                            <div class="reward-icon-3d">
+                                <i class="fas fa-shopping-bag"></i>
+                            </div>
+                        </div>
+                        <h4>Shopping Discounts</h4>
+                        <p>Get up to 30% off at partner stores. Use points for groceries, fashion, electronics, and more.</p>
+                        <div class="reward-points">From 50 points</div>
+                    </div>
+                    <div class="reward-card reward-card-2">
+                        <div class="reward-visual">
+                            <div class="reward-icon-3d">
+                                <i class="fas fa-utensils"></i>
+                            </div>
+                        </div>
+                        <h4>Food Coupons</h4>
+                        <p>Enjoy delicious meals at restaurants and cafes. Redeem points for vouchers worth up to $50.</p>
+                        <div class="reward-points">From 30 points</div>
+                    </div>
+                    <div class="reward-card reward-card-3">
+                        <div class="reward-visual">
+                            <div class="reward-icon-3d">
+                                <i class="fas fa-plane"></i>
+                            </div>
+                        </div>
+                        <h4>Travel Offers</h4>
+                        <p>Exchange points for travel vouchers, hotel discounts, and exclusive deals on your next vacation.</p>
+                        <div class="reward-points">From 200 points</div>
+                    </div>
+                    <div class="reward-card reward-card-4">
+                        <div class="reward-visual">
+                            <div class="reward-icon-3d">
+                                <i class="fas fa-film"></i>
+                            </div>
+                        </div>
+                        <h4>Entertainment</h4>
+                        <p>Movie tickets, event passes, streaming subscriptions, and more entertainment options await.</p>
+                        <div class="reward-points">From 40 points</div>
+                    </div>
+                    <div class="reward-card reward-card-5">
+                        <div class="reward-visual">
+                            <div class="reward-icon-3d">
+                                <i class="fas fa-gas-pump"></i>
+                            </div>
+                        </div>
+                        <h4>Fuel Vouchers</h4>
+                        <p>Save on fuel costs with gas station vouchers. Perfect for your daily commute or road trips.</p>
+                        <div class="reward-points">From 100 points</div>
+                    </div>
+                    <div class="reward-card reward-card-6">
+                        <div class="reward-visual">
+                            <div class="reward-icon-3d">
+                                <i class="fas fa-gift"></i>
+                            </div>
+                        </div>
+                        <h4>Special Deals</h4>
+                        <p>Access limited-time offers and exclusive partnerships with local businesses in your area.</p>
+                        <div class="reward-points">From 25 points</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section id="technology" class="technology">
+        <div class="container">
+            <div class="section-header">
+                <h2>Machine Technology</h2>
+                <p class="section-subtitle">Advanced reverse vending machines powered by AI and IoT</p>
+            </div>
+            <div class="tech-content">
+                <div class="tech-main">
+                    <div class="tech-card large">
+                        <div class="tech-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3>Reverse Vending Machines</h3>
+                        <p>Our state-of-the-art reverse vending machines are designed for durability, efficiency, and user-friendliness. Each machine features a spacious deposit area, clear instructions, and a digital display that guides users through the recycling process. Built to withstand high-traffic usage, our machines operate 24/7 and require minimal maintenance.</p>
+                        <ul>
+                            <li>Weather-resistant exterior suitable for indoor and outdoor installation</li>
+                            <li>User-friendly touchscreen interface in multiple languages</li>
+                            <li>Secure payment integration for instant point crediting</li>
+                            <li>Automated bottle sorting and compacting technology</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tech-grid">
+                    <div class="tech-card">
+                        <div class="tech-icon">
+                            <i class="fas fa-satellite-dish"></i>
+                        </div>
+                        <h3>Smart Sensors</h3>
+                        <p>Advanced optical and weight sensors automatically detect, count, and categorize plastic bottles. Our AI-powered recognition system ensures accurate identification of bottle types and sizes, preventing fraud and ensuring fair point allocation.</p>
+                    </div>
+                    <div class="tech-card">
+                        <div class="tech-icon">
+                            <i class="fas fa-fingerprint"></i>
+                        </div>
+                        <h3>Plastic Detection</h3>
+                        <p>Using near-infrared spectroscopy and machine learning algorithms, our system can distinguish between PET, HDPE, and other plastic types, ensuring proper sorting for efficient recycling processes.</p>
+                    </div>
+                    <div class="tech-card">
+                        <div class="tech-icon">
+                            <i class="fas fa-bell"></i>
+                        </div>
+                        <h3>Waste Collection Alerts</h3>
+                        <p>Integrated IoT sensors monitor fill levels in real-time. When capacity reaches 80%, automated alerts are sent to our collection team, ensuring machines are serviced promptly and remain available for users.</p>
+                    </div>
+                    <div class="tech-card">
+                        <div class="tech-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h3>Cloud Connectivity</h3>
+                        <p>All machines are connected to our secure cloud platform, enabling real-time data synchronization, remote monitoring, and instant point crediting to user accounts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Environmental Impact Section -->
+    <section id="impact" class="impact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Environmental Impact</h2>
+                <p class="section-subtitle">Making a measurable difference for our planet</p>
+            </div>
+            <div class="impact-content">
+                <div class="impact-stats">
+                    <div class="impact-stat">
+                        <div class="stat-icon">
+                            <i class="fas fa-wine-bottle"></i>
+                        </div>
+                        <div class="stat-value">starting</div>
+                        <div class="stat-label">Bottles Recycling</div>
+                    </div>
+                    <div class="impact-stat">
+                        <div class="stat-icon">
+                            <i class="fas fa-weight"></i>
+                        </div>
+                        <div class="stat-value">starting</div>
+                        <div class="stat-label">Plastic Waste Diverting</div>
+                    </div>
+                    <div class="impact-stat">
+                        <div class="stat-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <div class="stat-value">starting</div>
+                        <div class="stat-label">CO₂ Emissions Saving</div>
+                    </div>
+                    <div class="impact-stat">
+                        <div class="stat-icon">
+                            <i class="fas fa-water"></i>
+                        </div>
+                        <div class="stat-value">starting</div>
+                        <div class="stat-label">Water Conserving</div>
+                    </div>
+                </div>
+                <div class="impact-details">
+                    <div class="impact-item">
+                        <h3><i class="fas fa-recycle"></i> Reduces Plastic Waste</h3>
+                        <p>By making recycling convenient and rewarding, Ecopoints significantly increases the rate of plastic bottle recovery. Our machines intercept plastic waste before it reaches landfills or oceans, creating a closed-loop recycling system that transforms waste into valuable resources.</p>
+                    </div>
+                    <div class="impact-item">
+                        <h3><i class="fas fa-industry"></i> Supports Recycling Industries</h3>
+                        <p>Every bottle collected through Ecopoints is sorted, processed, and sent to certified recycling facilities. This creates a steady supply of high-quality recycled materials that manufacturers use to produce new products, reducing the need for virgin plastic and supporting the circular economy.</p>
+                    </div>
+                    <div class="impact-item">
+                        <h3><i class="fas fa-city"></i> Encourages Clean Surroundings</h3>
+                        <p>By incentivizing proper waste disposal, Ecopoints helps reduce litter in public spaces, parks, beaches, and neighborhoods. Our convenient machine locations make it easy for people to dispose of plastic bottles responsibly, creating cleaner and more beautiful communities for everyone to enjoy.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Users Say</h2>
+                <p class="section-subtitle">Join thousands of satisfied recyclers making a difference</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Ecopoints makes recycling actually fun! I love earning points for every plastic bottle I drop off. The app is easy to use, and the rewards keep me motivated. It feels great knowing I’m helping the environment while getting something in return."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Prashob</h4>
+                            <p>student</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"I never really cared about recycling until I started using Ecopoints. The two-score system is smart—it tracks my points and lets me redeem offers easily. I’ve started encouraging my friends to join too!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Karthik MS</h4>
+                            <p>B.tech Student</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"The app is very student-friendly. I like the community feature where we can post ideas and tips about recycling. Ecopoints makes me feel like small actions really do matter, and I enjoy seeing my points add up."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Devadathan KS</h4>
+                            <p>student</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"I love the idea of earning rewards for doing something good for the environment. Ecopoints has made recycling simple and exciting, and it’s motivating to compete with friends for points. Can’t wait for the actual machine to be available nearby!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Abhinav Krishna</h4>
+                            <p>student</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <p class="section-subtitle">Everything you need to know about Ecopoints</p>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do I get started with Ecopoints?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Getting started is easy! Simply download the Ecopoints mobile app from the App Store or Google Play, create an account, and you're ready to start recycling. Find a nearby machine using the app's location finder, scan the QR code at the machine, and start depositing your plastic bottles.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What types of plastic bottles can I recycle?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our machines accept most plastic bottles, including PET and HDPE bottles (water bottles, soda bottles, juice bottles, etc.). The bottles should be empty and reasonably clean. Our smart sensors automatically detect and sort different types of plastic.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How many points do I earn per bottle?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Point values depend on bottle size: small bottles (500ml) earn 5 points, medium bottles (1L) earn 10 points, and large bottles (1.5L+) earn 15 points. You can also earn bonus multipliers for daily recycling streaks and special promotions!</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do I redeem my Ecopoints for rewards?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Open the Ecopoints app and browse the Rewards section. Select the reward you want, check if you have enough points, and tap "Redeem." You'll receive a digital voucher or code that you can use immediately or share with friends. Some rewards require partner app integration.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Where are Ecopoints machines located?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Ecopoints machines are strategically placed in high-traffic areas including shopping malls, supermarkets, parks, universities, transit stations, and office complexes. Use the app's map feature to find the nearest machine and see real-time availability status.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do my points expire?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Your Ecopoints remain valid as long as your account is active and you recycle at least once every 12 months. Points from promotions may have specific expiration dates, which will be clearly communicated when you earn them.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What happens to the bottles I deposit?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>All bottles collected through Ecopoints machines are sorted by type, cleaned, and sent to certified recycling facilities. The recycled plastic is then processed into new products, creating a circular economy. We maintain full transparency about our recycling partners and processes.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Is there a limit to how many bottles I can deposit?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>There's no daily limit to the number of bottles you can deposit, but individual machines have capacity limits. If a machine is full, the app will direct you to the nearest available machine. We recommend checking machine availability in the app before visiting.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can I use Ecopoints without the mobile app?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>While the mobile app provides the best experience with features like point tracking, reward browsing, and machine finder, you can still use Ecopoints machines by scanning a QR code at the machine. However, we highly recommend downloading the app for full functionality.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do I contact Ecopoints support?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You can reach our support team through the contact form on this website, email us at support@ecopoints.com, or use the in-app support feature. We typically respond within 24 hours. For urgent issues with machines, you can report them directly through the app.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p class="section-subtitle">We'd love to hear from you</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>ecoopoooints@gmail.com</p>
+                            <p>loadingtarsa@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+91 8157991121</p>
+                            <p>Mon-Fri: 9AM - 6PM</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Address</h3>
+                            <p>Vidya academy of science and technology technical campus </p>
+                            <p>malakkal,kilimanoor,trivandrum</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <h3>Follow Us</h3>
+                        <div class="social-icons">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-recycle"></i>
+                        <span>Ecopoints</span>
+                    </div>
+                    <p>Turning waste into rewards, one bottle at a time. Join the smart recycling revolution.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#rewards">Rewards</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#technology">Technology</a></li>
+                        <li><a href="#impact">Environmental Impact</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Download App</h4>
+                    <div class="app-buttons">
+                        <a href="#" class="app-btn">
+                            <i class="fab fa-apple"></i>
+                            <div>
+                                <span>Download on the</span>
+                                <strong>App Store</strong>
+                            </div>
+                        </a>
+                        <a href="#" class="app-btn">
+                            <i class="fab fa-google-play"></i>
+                            <div>
+                                <span>Get it on</span>
+                                <strong>Google Play</strong>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Ecopoints. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
